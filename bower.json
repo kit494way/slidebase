@@ -1,0 +1,20 @@
+{
+  "name": "marked",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "KITAGAWA Yasutaka <kit494way@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "remark": "^0.14.0"
+  }
+}

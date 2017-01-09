@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "slidebase",
+  "description": "DocBaseのドキュメントからHTMLスライドを作成します。",
+  "version": "0.1.0",
+  "icons": {
+    "24": "img/icon24.png",
+    "32": "img/icon32.png",
+    "128": "img/icon128.png"
+  },
+  "page_action": {
+    "default_icon": "img/icon32.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [ "js/background.js" ],
+    "persistent": false
+  },
+  "permissions": [
+    "declarativeContent",
+    "tabs",
+    "activeTab",
+    "https://api.docbase.io/",
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
+}
